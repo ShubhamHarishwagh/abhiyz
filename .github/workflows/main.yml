@@ -1,1 +1,16 @@
+name: gitactiondemo3
+on:
+   push:
+       branchs: 
+          - main
 
+jobs:
+    jobs-demo: 
+         runs-on: ubuntu-latest
+
+         steps:
+         - name: code checkout 
+           uses: actions/checkout@v2
+
+         - name: print message 
+           run: echo "welcome to india"                  
