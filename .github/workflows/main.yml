@@ -13,5 +13,5 @@ jobs:
                 uses: actoions/checkout@v2
 
               - name: print message
-                 run: echo "welcome to maharashtra"
+                run: echo "welcome to maharashtra"
             
