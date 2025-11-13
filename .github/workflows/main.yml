@@ -1,16 +1,17 @@
-name: gitactiondemo3
+name: gitactiondemo4
 on:
-   push:
-       branchs: 
-          - main
+    push:
+        Branches:
+              - main
 
 jobs:
-    jobs-demo: 
-         runs-on: ubuntu-latest
+     jobs-demo:
+          runs-on: ubuntu-latest
 
-         steps:
-         - name: code checkout 
-           uses: actions/checkout@v2
+          steps:
+              - name: checkout code 
+                uses: actoions/checkout@v2
 
-         - name: print message 
-           run: echo "welcome to india"                  
+              - name: print message
+                 run: echo "welcome to maharashtra"
+            
